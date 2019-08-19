@@ -1,5 +1,5 @@
 ityped.init(document.querySelector("#ityped"), {
-    loop: true,
+    loop: false,
     showCursor: false,
     strings: ["Yoshiki's　portfolio"]
   })
