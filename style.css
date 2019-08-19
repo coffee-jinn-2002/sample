@@ -1,0 +1,104 @@
+.title {
+  color: blue;
+}
+
+.head{
+	background-color: skyblue;
+	font-size: 30px;
+  padding: 10px;
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.a2{
+  color: #FFF
+}
+
+.a1{
+  color: white;
+  /* text-align: right; */
+}
+
+.div1{
+  color: white;
+  /* text-align: left; */
+}
+
+.div2{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    padding-top: 200px;
+    text-align: center;
+    background-image: url(../sample/shidoni.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: #FFF;
+    box-sizing: border-box;
+    /* width: 100vw;
+    height: 100vh;
+    background-position:center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+.h1{
+  font-size: 50px;
+  font-family: sans-serif;
+}
+.div3{
+	font-size: 30px
+}
+.div3{
+	background-color: white;
+	text-align: center;
+}
+p {
+	font-size: 50px;
+}
+h2 {
+	font-size: 70px;
+}
+.footer{
+	margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    background-color: skyblue;
+    color: white;
+    font-size: 18px;
+    padding: 20px 0;
+}
+div.zip img{
+	width: 703px;
+	height: 317px;
+}
+p {
+	line-height: 80px;
+}
+.ityped-cursor {
+  font-size: 2.2rem;
+  opacity: 1;
+  -webkit-animation: blink 0.3s infinite;
+  -moz-animation: blink 0.3s infinite;
+  animation: blink 0.3s infinite;
+  animation-direction: alternate;
+}
+@keyframes blink {
+  100% {
+    opacity: 0;
+  }
+}
+@-webkit-keyframes blink {
+  100% {
+    opacity: 0;
+  }
+}
+@-moz-keyframes blink {
+  100% {
+    opacity: 0;
+  }
+}
